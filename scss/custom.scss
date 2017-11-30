@@ -1,0 +1,270 @@
+//@import "./bootstrap/_variables.scss";
+
+
+// BLOCK STYLES & UTILITIES
+
+.block {
+	background-color:theme-color("lighter");
+}
+
+.block-inverse {
+	background-color:theme-color("dark");
+	color:theme-color("lighter");	
+}
+
+.block-hero {
+	height:90vh;	
+}
+
+.block-hero .hero-header-wrapper {
+	padding:2rem;
+	background-color:rgba(255,255,255,0.6);	
+	border-radius:0.3rem;
+	//box-shadow:0px 0px 40px 4px theme-color("primary");
+}
+
+.block-featured {
+	background-color:theme-color("light");
+}
+
+// CARDS
+
+.card.card-custom-grid {
+	border-radius:0px;
+	border:none;
+	border-bottom:3px solid theme-color("light");
+	border-left:1px solid theme-color("light");
+}
+
+// FOOTER STYLES
+
+.footer {
+	
+	h1,h2,h3,h4,h5,h6 {
+		padding-bottom:1rem;
+	}
+		
+}
+
+// JUMBOTRON STYLES
+
+.jumbotron {
+	background-color:white;
+	border-radius:0rem;
+}
+
+.jumbotron.block-inverse {
+	
+	background-color:theme-color("secondary");
+
+	h1,h2,h3,h4,h5,h6,p,span {	
+		color:theme-color("lighter") !important;	
+	}
+		
+}
+
+.semi-transparent {
+	opacity:0.5;
+}
+
+
+	
+// MAIN NAVBAR HOVER DROPDOWNS FOR SUBLEVELS 
+
+
+ul.dropdown-menu.dropdown-menu-subdrop {
+	li:first-child {
+		border-bottom:1px solid transparent;
+		a {
+			font-weight:inherit;
+		}
+	}
+	li {
+		border-bottom:1px solid transparent;
+		a {
+			font-weight:inherit;
+			line-height:21px;
+			text-transform:none;
+		}
+	}
+	li:last-child {
+		border-bottom:none;
+	}
+}
+
+.dropdown-menu {
+	li.nav-item {
+		a.dropdown-item {
+			padding-right:3rem;		
+		}
+	}	
+}
+
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: theme-color("primary");
+    margin-top: 12px;
+    margin-right: -12px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: theme-color("secondary");
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+// MOBILE SUBMENU EXTRAS
+
+.dropdown-menu.mobile-level {
+	
+	.dropdown-item {
+	
+		padding:0rem;		
+	
+		i {
+			padding-left:0.5rem;
+		}
+	
+	}
+	
+	.dropdown-mobile-submenu {
+		
+		.children-dropdown-item {
+			padding-left:1rem;			
+		}
+		
+	}
+	
+	a.active {
+		background-color:darken(theme-color("primary"),10%) !important;
+	}
+	
+}
+
+
+.navbar-mobile {
+	max-height:100%;
+	height:auto;
+	position:fixed;
+	overflow-y:visible;
+	overflow-x:hidden;
+	overflow-wrap:normal;
+}
+
+
+// MEDIA QUERIES -------------------/
+
+
+
+// MASTER TYPOGRAPHY SETUP
+
+html {
+  font-size: 14px;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 18px;
+  }
+}
+
+
+// CARDS
+
+@media screen and (min-width: 1140px) {
+  .card-columns {
+    column-count: 2;
+  }
+}
+
+@media screen and (max-width: 1139px) {
+  .card-columns {
+    column-count: 1;
+  }
+}
+
+// NAVIGATIONS
+
+
+.mobile-helper-service {
+	display:none;
+}
+	
+//@media (max-width: 767px) {
+@include media-breakpoint-down(sm) {
+
+	.mobile-helper-service {
+		display:inline-block;
+	}
+
+
+	.navbar-nav {
+		
+		.dropdown-menu {
+			background-color:transparent;
+			border:none;
+			box-shadow:none;
+			
+			a.dropdown-item {
+				color:white;
+			}
+			
+			a.dropdown-item:hover {
+				color:white;
+				background-color:darken(theme-color("primary"),20%);		
+			}
+			
+		}
+		
+	}
+
+}
+
