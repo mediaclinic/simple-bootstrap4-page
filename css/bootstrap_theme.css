@@ -6134,7 +6134,8 @@ ul.dropdown-menu.dropdown-menu-subdrop li:last-child {
   overflow: hidden; }
   .zoom-effect-container:hover .card-image img {
     -webkit-transform: scale 1.2;
-    transform: scale(1.2); }
+    transform: scale(1.2);
+    -webkit-mask-image: -webkit-linear-gradient(top, transparent, black); }
 
 .card-image {
   position: absolute;
