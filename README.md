@@ -4,11 +4,13 @@ Simple HTML-page made with Bootstrap 4
 ### HTML-tutorials
 
 [HTML Basics](https://www.codecademy.com/learn/learn-html)
+
 [HTML-cheatsheet](https://digital.com/tools/html-cheatsheet/)
 
 ### CSS-tutorials
 
 [CSS Basics](http://www.cssbasics.com)
+
 [CSS-Tricks](https://css-tricks.com)
 
 ### Bootstrap tutorials
