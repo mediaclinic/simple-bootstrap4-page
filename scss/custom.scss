@@ -9,18 +9,33 @@
 
 .block-inverse {
 	background-color:theme-color("dark");
-	color:theme-color("lighter");	
+	color:theme-color("light");
+
+	h1,h2,h3,h4,h5,h6,p,span {	
+		color:theme-color("light") !important;	
+	}
+
+
 }
 
-.block-hero {
-	height:90vh;	
+.block-fill-height {
+	display: table;
+	width: 100%;
+	height: 95vh;
+}
+
+.block-xs-top,
+.block-xs-bottom,
+.block-xs-middle {
+	display: table-cell;
+	vertical-align: middle;
 }
 
 .block-hero .hero-header-wrapper {
 	padding:2rem;
 	background-color:rgba(255,255,255,0.6);	
 	border-radius:0.3rem;
-	//box-shadow:0px 0px 40px 4px theme-color("primary");
+	//box-shadow:0px 0px 40px 4px theme-color("primary");e
 }
 
 .block-featured {
@@ -51,16 +66,14 @@
 .jumbotron {
 	background-color:white;
 	border-radius:0rem;
-}
 
-.jumbotron.block-inverse {
-	
-	background-color:theme-color("secondary");
 
-	h1,h2,h3,h4,h5,h6,p,span {	
-		color:theme-color("lighter") !important;	
+	.block-inverse {
+
+		h1,h2,h3,h4,h5,h6,p,span {	
+			color:theme-color("lighter") !important;	
+		}
 	}
-		
 }
 
 .semi-transparent {
@@ -189,6 +202,7 @@ ul.dropdown-menu.dropdown-menu-subdrop {
 
 // Transformation effects
 .zoom-effect-container {
+	background: $primary;
 	float: left;
 	position: relative;
 	width: 100%;
@@ -198,10 +212,16 @@ ul.dropdown-menu.dropdown-menu-subdrop {
 
 	&:hover {
 		.card-image {
+				background: $primary;
+			    -webkit-transition: background-color 500ms linear;
+			    -ms-transition: background-color 500ms linear;
+			    transition: background-color 500ms linear;
 			img {
-				-webkit-transform: scale (1.2);
-				transform: scale(1.2);
-				-webkit-mask-image: -webkit-linear-gradient(top, rgba(0, 0, 0,0), rgba(0,0,0,1));
+				-webkit-transform: scale (1.1);
+				transform: scale(1.1);
+				-webkit-mask-image: -webkit-linear-gradient(top, rgba(0,0,0,.7), rgba(0,0,0,.9));
+				-webkit-animation: wipe 6s infinite;
+				-webkit-animation-delay: 3s;
 			}
 		}
 	}
