@@ -4,10 +4,10 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "81A477E8-5F59-43F8-A854-E5913219EB45"
+		"uuidString": "D4D1C5B1-6176-4954-8252-1C0A0AC9598C"
 		}
 	],
-"creatorBuild": "26148",
+"creatorBuild": "26261",
 "files": {
 	"\/bootstrap\/bootstrap-4.0.0\/.babelrc.js": {
 		"ft": 64,
@@ -12823,6 +12823,26 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/navbar-transparent-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/navbar-transparent-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/navbar-transparent.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/navbar-transparent-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/tether-1.3.3\/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
@@ -13764,11 +13784,38 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/videobackground-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/videobackground-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/videobackground.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/videobackground-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/lesson_001.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/lesson_001.html",
+		"oF": 0
+		},
+	"\/lesson_002.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/lesson_002.html",
 		"oF": 0
 		},
 	"\/LICENSE": {
@@ -15272,10 +15319,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 533727568,
+	"creationDate": 539165949,
 	"displayValue": "simple-bootstrap4-page",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-wonka"
+	"iconImageName": "meme-drunkArcher"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -15689,7 +15736,7 @@
 			},
 		"array-callback-return": {
 			"active": 0,
-			"optionString": ""
+			"optionString": "{'allowImplicit': false}"
 			},
 		"array-element-newline": {
 			"active": 0,
@@ -15847,9 +15894,13 @@
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
 			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
 		"indent": {
 			"active": 0,
-			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1, }"
+			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1 }"
 			},
 		"init-declarations": {
 			"active": 0,
@@ -17251,7 +17302,7 @@
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"uglifyDefinesString": "",

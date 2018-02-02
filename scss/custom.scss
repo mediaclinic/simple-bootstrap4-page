@@ -80,7 +80,83 @@
 	opacity:0.5;
 }
 
+// FULL VIDEOBACKGROUND ELEMENT
 
+.jumbotron-video {
+	border-right: none;
+	border-left: none;
+	position: relative;
+	padding: 0;
+
+	.no-video .video-container video,
+	.touch .video-container video {
+		display: none;
+	}
+
+	.no-video .video-container .poster,
+	.touch .video-container .poster {
+		display: block !important;
+	}
+
+	.video-container {
+		position: relative;
+		bottom: 0%;
+		left: 0%;
+		height: 100%;
+		width: 100%;
+		overflow: hidden;
+		background: #000;
+	}
+
+	.video-container .poster img {
+		width: 100%;
+		bottom: 0;
+		position: absolute;
+	}
+	
+	.video-container .filter {
+		z-index: 100;
+		position: absolute;
+		background: rgba(0, 0, 0, 0.5);
+		width: 100%;
+	}
+	
+	.video-container .title-container {
+		z-index: 1000;
+		position: absolute;
+		top: 35%;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.video-container .description .inner {
+		width: 45%;
+		margin: 0 auto;
+	}
+	
+	.video-container .link {
+		position: absolute;
+		bottom: 3em;
+		width: 100%;
+		text-align: center;
+		z-index: 1001;
+	}
+	
+	.video-container .link a {
+		color: #fff;
+	}
+	
+	.video-container video {
+		position: absolute;
+		z-index: 0;
+		bottom: 0;
+	}
+	
+	.video-container video.fillWidth {
+		width: 100%;
+	}
+
+}
 	
 // MAIN NAVBAR HOVER DROPDOWNS FOR SUBLEVELS 
 
@@ -198,6 +274,52 @@ ul.dropdown-menu.dropdown-menu-subdrop {
 	overflow-y:visible;
 	overflow-x:hidden;
 	overflow-wrap:normal;
+}
+
+// Navbar opaque style
+
+.opaque-navbar {
+	background-color: rgba(0,0,0,0.0);
+
+}
+
+.navbar-light {
+
+	transition: background-color .5s ease 0s;
+
+	&.opaque {
+		background-color: rgba(0,0,0,0.0) !important;
+		transition: background-color .5s ease 0s;
+
+		.nav-item {
+		
+			&.active {
+				a.nav-link {
+					color: $navbar-dark-active-color;
+				}
+			}
+		
+			a.nav-link {
+		
+				color: $navbar-dark-color;
+		
+				&:hover{
+					color: $navbar-dark-hover-color;
+				}
+			}
+		}
+
+		.navbar-brand {
+			color: $gray-500;
+		}
+
+		.navbar-toggler {
+			span.navbar-toggler-icon {
+				color: $gray-500 !important;
+			}
+
+		}
+	}
 }
 
 // Transformation effects

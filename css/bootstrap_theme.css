@@ -6055,6 +6055,58 @@ h6 .small,
 .semi-transparent {
   opacity: 0.5; }
 
+.jumbotron-video {
+  border-right: none;
+  border-left: none;
+  position: relative;
+  padding: 0; }
+  .jumbotron-video .no-video .video-container video,
+  .jumbotron-video .touch .video-container video {
+    display: none; }
+  .jumbotron-video .no-video .video-container .poster,
+  .jumbotron-video .touch .video-container .poster {
+    display: block !important; }
+  .jumbotron-video .video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000; }
+  .jumbotron-video .video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute; }
+  .jumbotron-video .video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%; }
+  .jumbotron-video .video-container .title-container {
+    z-index: 1000;
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    text-align: center; }
+  .jumbotron-video .video-container .description .inner {
+    width: 45%;
+    margin: 0 auto; }
+  .jumbotron-video .video-container .link {
+    position: absolute;
+    bottom: 3em;
+    width: 100%;
+    text-align: center;
+    z-index: 1001; }
+  .jumbotron-video .video-container .link a {
+    color: #fff; }
+  .jumbotron-video .video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0; }
+  .jumbotron-video .video-container video.fillWidth {
+    width: 100%; }
+
 ul.dropdown-menu.dropdown-menu-subdrop li:first-child {
   border-bottom: 1px solid transparent; }
   ul.dropdown-menu.dropdown-menu-subdrop li:first-child a {
@@ -6132,6 +6184,25 @@ ul.dropdown-menu.dropdown-menu-subdrop li:last-child {
   overflow-y: visible;
   overflow-x: hidden;
   overflow-wrap: normal; }
+
+.opaque-navbar {
+  background-color: transparent; }
+
+.navbar-light {
+  transition: background-color .5s ease 0s; }
+  .navbar-light.opaque {
+    background-color: transparent !important;
+    transition: background-color .5s ease 0s; }
+    .navbar-light.opaque .nav-item.active a.nav-link {
+      color: #fff; }
+    .navbar-light.opaque .nav-item a.nav-link {
+      color: rgba(255, 255, 255, 0.5); }
+      .navbar-light.opaque .nav-item a.nav-link:hover {
+        color: rgba(255, 255, 255, 0.75); }
+    .navbar-light.opaque .navbar-brand {
+      color: #adb5bd; }
+    .navbar-light.opaque .navbar-toggler span.navbar-toggler-icon {
+      color: #adb5bd !important; }
 
 .zoom-effect-container {
   background: #007bff;

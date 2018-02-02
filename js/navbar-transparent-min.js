@@ -1,0 +1,1 @@
+$(document).ready(function(){$(window).scroll(function(){$(this).scrollTop()>80?$(".navbar-light").removeClass("opaque"):$(".navbar-light").addClass("opaque")})});
