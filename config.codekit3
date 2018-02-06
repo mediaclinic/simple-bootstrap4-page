@@ -13804,18 +13804,46 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/lesson_001.html": {
+	"\/lesson_001_keycommands.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/lesson_001.html",
+		"oAP": "\/lesson_001_keycommands.html",
 		"oF": 0
 		},
-	"\/lesson_002.html": {
+	"\/lesson_002_basic_layout.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/lesson_002.html",
+		"oAP": "\/lesson_002_basic_layout.html",
+		"oF": 0
+		},
+	"\/lesson_003_links.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/lesson_003_links.html",
+		"oF": 0
+		},
+	"\/lesson_004_images.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/lesson_004_images.html",
+		"oF": 0
+		},
+	"\/lesson_005.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/lesson_005.html",
+		"oF": 0
+		},
+	"\/lesson_010_videobackground.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/lesson_010_videobackground.html",
 		"oF": 0
 		},
 	"\/LICENSE": {
