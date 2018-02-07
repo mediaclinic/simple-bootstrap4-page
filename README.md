@@ -18,3 +18,6 @@ Simple HTML-page made with Bootstrap 4
 
 ### Bootstrap homepage
 [getbootstrap.com](http://getbootstrap.com)
+
+### Font Awesome 4.7
+[fontawesome.com](http://www.fontawesome.com/v4.7.0/)
