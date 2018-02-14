@@ -12871,6 +12871,26 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/nav-heroscroll.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/nav-heroscroll-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/nav-smoothscroll.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/nav-smoothscroll-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/navbar-transparent-min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -12887,6 +12907,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/navbar-transparent-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/smoothscroll-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/smoothscroll-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
