@@ -387,6 +387,11 @@ ul.dropdown-menu.dropdown-menu-subdrop {
 	}
 }
 
+.bg-gradient-special {
+    background: $gray-900 linear-gradient(180deg, mix(black, $gray-800, 99%), $gray-900) repeat-x !important;
+}
+
+
 // Transformation effects
 .zoom-effect-container {
 	background: $primary;

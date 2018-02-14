@@ -27,7 +27,7 @@
 
 .chevron-down {
 	text-align: center;
-	margin: 8% 0;
+	margin: 3% 0;
 }
 
 .chevron-down a {
@@ -40,6 +40,10 @@
 	-moz-animation: bounce 2s infinite;
 	-webkit-animation: bounce 2s infinite;
 	animation: bounce 2s infinite;
+}
+
+.position-bottom {
+	bottom:0;
 }
 
 @keyframes bounce {
