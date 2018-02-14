@@ -4878,6 +4878,26 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/custom-portfolio-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/custom-portfolio-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/custom-portfolio.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/custom-portfolio-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/custom.css": {
 		"aP": 1,
 		"bl": 0,
@@ -4887,6 +4907,13 @@
 		"oAP": "\/css\/custom-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/example_portfolio.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/example_portfolio.html",
+		"oF": 0
 		},
 	"\/font-awesome-4.7.0\/.gitignore": {
 		"cB": 0,
@@ -12775,6 +12802,16 @@
 		"oA": 0,
 		"oAP": "\/font-awesome-4.7.0\/src\/whats-new.html",
 		"oF": 0
+		},
+	"\/images\/brooke-cagle-411479_unsplash.jpg": {
+		"ft": 16384,
+		"iS": 143061,
+		"oA": 0,
+		"oAP": "\/images\/brooke-cagle-411479_unsplash.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/heroimage.jpg": {
 		"ft": 16384,

@@ -1,1 +1,1 @@
-$(document).ready(function(){$(window).scroll(function(){$(this).scrollTop()>80?$(".navbar-light").removeClass("opaque"):$(".navbar-light").addClass("opaque")})});
+$(document).ready(function(){$(window).scroll(function(){var o=$(".fixed-top");o.toggleClass("scrolled",$(this).scrollTop()>o.height())})});
