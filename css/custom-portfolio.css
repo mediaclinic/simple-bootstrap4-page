@@ -14,6 +14,13 @@
 	height: 100vh;
 }
 
+.block-fill-height-33 {
+	display: table;
+	height: 33vh;
+	width: 100%;
+}
+
+
 .typography-classic {
 	font-family: 'Merriweather', SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 	font-weight: 300;
@@ -56,4 +63,16 @@
 	60% {
 		transform: translateY(-15px);
 	}
+}
+
+/* CARD STYLES */
+
+
+.card-portfolio {
+	border: none;
+	text-align: center;
+}
+
+.card-portfolio .zoom-effect-container {
+	height: 250px;
 }
