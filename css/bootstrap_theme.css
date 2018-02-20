@@ -6315,14 +6315,13 @@ ul.dropdown-menu.dropdown-menu-subdrop li:last-child {
       -webkit-mask-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9));
       -webkit-animation: wipe 6s infinite;
       -webkit-animation-delay: 3s; }
-
-.card-image {
-  position: absolute;
-  top: 0;
-  left: 0; }
-  .card-image img {
-    -webkit-transform: 0.4s ease;
-    transition: 0.4s ease; }
+  .zoom-effect-container .card-image {
+    position: relative;
+    top: 0%;
+    left: -25%; }
+    .zoom-effect-container .card-image img {
+      -webkit-transform: 0.4s ease;
+      transition: 0.4s ease; }
 
 html {
   font-size: 14px; }

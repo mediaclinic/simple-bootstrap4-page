@@ -417,20 +417,19 @@ ul.dropdown-menu.dropdown-menu-subdrop {
 			}
 		}
 	}
-}
 
-.card-image {
-	position: absolute;
-	top: 0;
-	left: 0;
-
-	img {
-		-webkit-transform: 0.4s ease;
-		transition: 0.4s ease;
+	.card-image {
+		position: relative;
+		top: 0%;
+		left: -25%;
+	
+		img {
+			-webkit-transform: 0.4s ease;
+			transition: 0.4s ease;
+		}
+	
 	}
-
 }
-
 // MEDIA QUERIES -------------------/
 
 
