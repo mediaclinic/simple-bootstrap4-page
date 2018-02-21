@@ -4915,6 +4915,13 @@
 		"oAP": "\/example_portfolio.html",
 		"oF": 0
 		},
+	"\/example_portfolio_workpage.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/example_portfolio_workpage.html",
+		"oF": 0
+		},
 	"\/font-awesome-4.7.0\/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
@@ -12851,6 +12858,26 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
+	"\/js\/custom-portfolio-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/custom-portfolio-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/custom-portfolio.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/custom-portfolio-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/custom.js": {
 		"ft": 64,
 		"ma": 0,
@@ -12867,6 +12894,26 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/jquery-3.2.1.slim.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/jquery.easing.1.3-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.easing.1.3-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/jquery.easing.1.3.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.easing.1.3-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
