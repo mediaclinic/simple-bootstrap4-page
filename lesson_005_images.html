@@ -52,10 +52,10 @@
 
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item">
-					<a class="nav-link" href="lesson_005_cards.html">Previous Lesson 5: Cards</a>
+					<a class="nav-link" href="lesson_004_links.html">Previous Lesson 4: Links</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="lesson_007.html">Next Lesson 7: not available yet</a>
+					<a class="nav-link" href="lesson_006_cards.html">Next Lesson 6: Cards</a>
 				</li>
 			</ul>
 		</div>
@@ -65,45 +65,57 @@
 
 	<div class="jumbotron">
 		<div class="container">
-			<h1 class="display-2">Google Fonts</h1>
-			<p class="lead">How to change your font?</p>
+			<h1 class="display-2">Images</h1>
+			<p class="lead">How to insert image in page?</p>
 		</div>
 	</div>
 
 	<div class="container">
 
+		<!-- Example row of one column -->
 		<div class="row">
 			<div class="col-md-12">
-				<h4>Google Fonts</h4>
-				<p>Go to <a href="https://fonts.google.com" target="_blank">fonts.google.com</a> and select a font for your site.</p>
-				<ol type="1">
-					<li>Press red plus sign on font</li>
-					<li>Check the font info at the black box from bottom of the page</li>
-					<li>Customize the font with weights you need</li>
-					<li>Copy the import code, example: <pre><code class="text-info">@import url('https://fonts.googleapis.com/css?family=FontName');</code></pre></li>
-					<li>Paste it in the beginning of your custom.css</li>
-					<li>Change the custom.css with selected font. Example below:</li>
-				</ol>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-md-12">
-				<h4>Usage in CSS</h4>
-				<pre><code>
-body {
-	font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-}</code></pre>
-			</div>
-			<div class="col-md-12">
-					<h4>Change weight</h4>
+					<h4>Image with responsive class</h4>
 					<pre><code>
-h1, h2, h3, .h1, .h2, .h3 {
-	font-weight: 600;
-}					</code></pre>
+&lt;img src="images/take_control.jpg" class="img-fluid" alt="Alternative description about the image."&gt;
+					</code></pre>
 			</div>
+			<div class="col-md-12">
+					<h4>Image with responsive class and external link</h4>
+					<pre><code>
+&lt;a href="http://www.google.com/"&gt;&lt;img src="images/take_control.jpg" class="img-fluid" alt="Alternative description ..."&gt;&lt;/a&gt;
+					</code></pre>
+			</div>
+			<div class="col-md-12">
+					<h4>Image with responsive class and internal link</h4>
+					<pre><code>
+&lt;a href="lesson_004_images.html"&gt;&lt;img src="images/take_control.jpg" class="img-fluid" alt="Alternative description ..."&gt;&lt;/a&gt;
+					</code></pre>
+			</div>
+
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="display-4">Examples</h2>
+			</div>
+			<div class="col-md-6">
+				<p>Image with responsive class</p>
+				<img src="images/take_control.jpg" class="img-fluid">
+				<pre><code>
+&lt;img src="images/take_control.jpg" class="img-fluid" alt="Alternative description about the image."&gt;
+				</code></pre>
+			</div>
+			<div class="col-md-6">
+				<p>Image with responsive and rounded-circle classes</p>
+				<img src="images/take_control.jpg" class="img-fluid rounded-circle">
+				<pre><code>
+&lt;img src="images/take_control.jpg" class="img-fluid rounded-circle" alt="Alternative description about the image."&gt;
+				</code></pre>
+			</div>
+
 		</div>
 	</div>
+
 	<!-- FOOTER -->
 	
 	<div class="container-fluid" id="footer">

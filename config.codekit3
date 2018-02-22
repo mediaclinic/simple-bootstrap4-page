@@ -13946,39 +13946,46 @@
 		"oAP": "\/lesson_001_keycommands.html",
 		"oF": 0
 		},
-	"\/lesson_002_basic_layout.html": {
+	"\/lesson_002_content.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/lesson_002_basic_layout.html",
+		"oAP": "\/lesson_002_content.html",
 		"oF": 0
 		},
-	"\/lesson_003_links.html": {
+	"\/lesson_003_basic_layout.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/lesson_003_links.html",
+		"oAP": "\/lesson_003_basic_layout.html",
 		"oF": 0
 		},
-	"\/lesson_004_images.html": {
+	"\/lesson_004_links.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/lesson_004_images.html",
+		"oAP": "\/lesson_004_links.html",
 		"oF": 0
 		},
-	"\/lesson_005_cards.html": {
+	"\/lesson_005_images.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/lesson_005_cards.html",
+		"oAP": "\/lesson_005_images.html",
 		"oF": 0
 		},
-	"\/lesson_006_fonts.html": {
+	"\/lesson_006_cards.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/lesson_006_fonts.html",
+		"oAP": "\/lesson_006_cards.html",
+		"oF": 0
+		},
+	"\/lesson_007_fonts.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/lesson_007_fonts.html",
 		"oF": 0
 		},
 	"\/lesson_010_videobackground.html": {
