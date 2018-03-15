@@ -7,7 +7,7 @@
 		"uuidString": "D4D1C5B1-6176-4954-8252-1C0A0AC9598C"
 		}
 	],
-"creatorBuild": "26268",
+"creatorBuild": "26330",
 "files": {
 	"\/bootstrap\/bootstrap-4.0.0\/.babelrc.js": {
 		"ft": 64,
@@ -12884,6 +12884,26 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/custom-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/jquery-3.2.1.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery-3.2.1-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/jquery-3.2.1.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery-3.2.1.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
