@@ -1,7 +1,7 @@
 (function($) {
 	"use strict"; // Start of use strict
 	// Smooth scrolling using jQuery easing
-	$('a.smoothscroll[href*="#"]:not([href="#"])').click(function() {
+	$('a.smoothscroll[href*="#"]:not([href="#"][class*="accordion-toggle"][class*="card-image-top"])').click(function() {
 	if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
 		var target = $(this.hash);
 		target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
